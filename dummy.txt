@@ -1,0 +1,26 @@
+#include <stdio.h>
+int main(void){
+	int n,a,b,c;
+	float r;
+	scanf("%d",&n);
+	a=b=1;
+	printf("%d ",a);
+	while(n>0){
+		printf("%d ",b);
+		c=a;
+		a=b;
+		b=c+b;
+		n=n-1;
+	};
+	n=1000;
+	/*while(n>0){
+		c=a;
+		a=b;
+		b=c+b;
+		n=n-1;
+	};*/
+	r=b/(float)(a);
+	printf("\n%f",r);
+
+	return 0;
+}
