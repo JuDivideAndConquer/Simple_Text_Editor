@@ -1199,7 +1199,7 @@ void initEditor(void) {
 
 int main(int argc, char **argv) {
     if (argc != 2) {
-        fprintf(stderr,"Usage: kilo <filename>\n");
+        fprintf(stderr,"Usage: editor <filename>\n");
         exit(1);
     }
 
